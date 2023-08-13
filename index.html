@@ -5,72 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet" />
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="main-container">
-      <header class="maon-header">
+    <header>
+      <div class="container main-head">
         <h1 class="company-name">KENTech Academic</h1>
+
         <nav class="header-links">
-          <a class="nav-links" href="#">Home</a>
-          <a class="nav-links" href="#">Profile</a>
-          <a class="nav-links" href="#">Notification</a>
-          <a class="nav-links" href="#">About</a>
-          <a class="nav-links" href="#">Contact</a>
+          <a class="btn" href="#">Home</a>
+          <a class="btn" href="#">Profile</a>
+          <a class="btn" href="#">Project</a>
+          <a class="btn" href="#">Contact</a>
+          <a class="btn" href="#">About</a>
         </nav>
-      </header>
-      <img
-        src="img/related-3.jpg"
-        alt="Background image"
-        width="75"
-        height="75"
-      />
+      </div>
+
       <article>
-        <h2></h2>
-        <p>
-          At KENTech Academy, we understand that the tech landscape is
-          constantly evolving. Our expert instructors are industry veterans with
-          years of hands-on experience in their respective fields. They are
-          passionate about sharing their knowledge and insights to help you
-          succeed in today's fast-paced tech industry.
-        </p>
+        <div class="container main-section">
+          <div class="inner">
+            <h2>Welcome to KENTech</h2>
+            <p>
+              At KENTech Academy, we understand that the tech landscape is
+              constantly evolving. Our expert instructors are industry veterans
+              with years of hands-on experience in their respective fields. They
+              are passionate about sharing their knowledge and insights to help
+              you succeed in today's fast-paced tech industry.
+            </p>
 
-        <h3 class="list-heading heading1">Why KENTech</h3>
-        <div class="list-section">
-          <ul>
-            <li class="Reasons-for">
-              <st> Expert Instructors:</st> Learn from industry pros who breathe
-              tech.
-            </li>
-            <li class="Reasons-for">
-              <st>Practical Focus:</st>Hands-on projects for real-world impact.
-            </li>
-            <li class="Reasons-for">
-              <st>Tailored Learning: </st>Personalized paths for all levels.
-            </li>
-            <li class="Reasons-for">
-              <st>Flexibility: </st>On-demand, anywhere, anytime.
-            </li>
-            <li class="Reasons-for">
-              <st>Community Engagement</st> Thriving Community: Connect and
-              collaborate globally.
-            </li>
-          </ul>
-          <h3 class="list-heading heading2">Top Courses:</h3>
-          <ul>
-            <li class="courses">Full-Stack Web Development:</li>
-            <li class="courses">Machine Learning Fundamentals:</li>
-            <li class="courses">Ethical Hacking and Cybersecurity:</li>
-            <li class="courses">Cloud Computing Essentials:</li>
-            <li class="courses">Mobile App Development:</li>
-          </ul>
+            <h3>Why KENTech</h3>
+            <ul class="reasons">
+              <li>
+                <st> Expert Instructors:</st> Learn from industry pros who
+                breathe tech.
+              </li>
+              <li>
+                <st>Practical Focus:</st>Hands-on projects for real-world
+                impact.
+              </li>
+              <li>
+                <st>Tailored Learning: </st>Personalized paths for all levels.
+              </li>
+              <li><st>Flexibility: </st>On-demand, anywhere, anytime.</li>
+              <li>
+                <st>Community Engagement</st> Thriving Community: Connect and
+                collaborate globally.
+              </li>
+            </ul>
+          </div>
+          <!-- 
+          <img
+            src="img/related-1.jpg"
+            alt="Background image"
+            class="face-image"
+          /> -->
         </div>
-        <div>
+
+        <div class="container">
           <p>KENTech Academy fuels your journey towards tech excellence.</p>
-          <button>Enroll Now &rarr;git</button>
+          <a href="#" class="btn enroll">Enroll Now &rarr;</a>
         </div>
+        <footer>&COPY; Bandipo Kehinde</footer>
       </article>
-    </div>
-
-    <footer>&COPY; Bandipo Kehinde</footer>
+    </header>
   </body>
 </html>
