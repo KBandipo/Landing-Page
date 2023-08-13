@@ -35,14 +35,20 @@ header {
 
 .btn:link,
 .btn:visited {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
   background-color: #ff6b6b;
   color: #fff;
   text-decoration: none;
   display: inline-block;
-  padding: 16px 32px;
+  padding: 8px 16px;
   border-radius: 10px;
+}
+.btn:hover,
+.btn:active{
+  cursor: pointer;
+font-weight: 600;
+font-style: italic;
 }
 
 article {
@@ -74,16 +80,22 @@ p {
   margin-bottom: 10px;
 }
 
+li{
+  font-size: 18px;
+}
+
 .reasons{
   list-style: square;
   margin-left: 30px;
 }
 
 footer{
-  margin-top: 30px;
+  margin-top: 75px;
   display: inline-block;
 }
 
 .enroll{
-  margin-top: ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
