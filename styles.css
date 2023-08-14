@@ -34,25 +34,6 @@ header {
   justify-content: space-between;
 }
 
-.btn:link,
-.btn:visited {
-  font-size: 18px;
-  font-weight: 400;
-  /* background-color: #ff6b6b; */
-  background-color: #250b0b9c;
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 16px;
-  border-radius: 10px;
-}
-.btn:hover,
-.btn:active {
-  cursor: pointer;
-  font-weight: 600;
-  font-style: italic;
-}
-
 article {
   padding: 20px 0;
   position: absolute;
@@ -93,13 +74,31 @@ li {
   margin-left: 30px;
 }
 
-footer {
-  margin-top: 20px;
-  display: inline-block;
-}
-
 .enroll {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 18px;
+  font-weight: 400;
+  /* background-color: #ff6b6b; */
+  background-color: #250b0b9c;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+.btn:hover,
+.btn:active {
+  cursor: pointer;
+  font-weight: 600;
+  font-style: italic;
+}
+footer {
+  margin-top: 20px;
+  display: inline-block;
 }
