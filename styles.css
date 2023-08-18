@@ -23,7 +23,7 @@ header {
       rgba(37, 11, 11, 0.6),
       rgba(37, 11, 11, 0.6)
     ),
-    url(/img/related-3.jpg);
+    url(./img/related-3.jpg);
   background-size: cover;
 }
 
