@@ -19,7 +19,10 @@ header {
   /* background-color: red;*/
   height: 100vh;
   position: relative;
-  background-image: url(./img/related-3.jpg);
+  /* background-image: linear-gradient(#250b0b99, #250b0b99),
+    url(./img/related-3.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./img/related-3.jpg);
   background-size: cover;
 }
 
