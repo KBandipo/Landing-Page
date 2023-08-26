@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  /* At defualt 1rem = 16px*/
+  /* 10px / 16px = 62.5%*/
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Rubik", Sans-serif;
   color: #f7f7f7;
@@ -11,7 +18,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -26,14 +33,14 @@ header {
 }
 
 .main-head {
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 article {
-  padding: 20px 0;
+  padding: 2ren 0;
   position: absolute;
   left: 10%;
   top: 10%;
@@ -49,27 +56,27 @@ article {
 }
 
 h2 {
-  font-size: 44px;
-  margin-bottom: 20px;
+  font-size: 4.4rem;
+  margin-bottom: 2rem;
 }
 h3 {
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 p {
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 1.6;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 li {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .reasons {
   list-style: square;
-  margin-left: 30px;
+  margin-left: 3rem;
 }
 
 .enroll {
@@ -80,15 +87,15 @@ li {
 
 .btn:link,
 .btn:visited {
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
 
   background-color: #250b0b9c;
   color: #fff;
   text-decoration: none;
   display: inline-block;
-  padding: 8px 16px;
-  border-radius: 10px;
+  padding: 0.8rem 1.6rem;
+  border-radius: 1rem;
 }
 .btn:hover,
 .btn:active {
@@ -97,6 +104,6 @@ li {
   font-style: italic;
 }
 footer {
-  margin-top: 20px;
+  margin-top: 2rem;
   display: inline-block;
 }
